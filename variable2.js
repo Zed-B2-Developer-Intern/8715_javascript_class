@@ -29,7 +29,7 @@ Skills     : ${skills.join(", ")}
 
  Greeting   : ${getGreeting(name)}
 
-✅ All data has been dynamically inserted using JavaScript Interpolation!
+All data has been dynamically inserted using JavaScript Interpolation!
 `;
 
 console.log(output);
