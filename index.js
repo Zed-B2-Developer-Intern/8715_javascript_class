@@ -1,4 +1,4 @@
-console.log("📘 JavaScript Variables & Data Types\n");
+console.log(" JavaScript Variables & Data Types\n");
 
 var name = "Easha";
 console.log("Name:", name, "→", typeof name);
@@ -42,4 +42,4 @@ console.log("Today's Date:", today.toDateString(), "→", typeof today);
 let info = `My name is ${name}, I'm ${age} years old.`;
 console.log("Info String:", info);
 
-console.log("\n✅ Type Detection Completed.");
+console.log("\nType Detection Completed.");
