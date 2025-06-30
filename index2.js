@@ -14,20 +14,20 @@ function getGreeting(name) {
   return `Hello, ${name}! Hope you're doing great!`;
 }
 let output = `
-🌟 STUDENT PROFILE
-------------------------
-👩‍🎓 Name      : ${name}
-📅 Age        : ${age}
-📘 Course     : ${course}
+ STUDENT PROFILE
 
-🧠 Skills     : ${skills.join(", ")}
-🏙️  City       : ${profile.city}
-🏫 College    : ${profile.college}
-🎓 Batch      : ${profile.batch}
+ Name      : ${name}
+ Age        : ${age}
+ Course     : ${course}
 
-🧮 Total Marks (87 + 91): ${marks1} + ${marks2} = ${total}
+Skills     : ${skills.join(", ")}
+ City       : ${profile.city}
+ College    : ${profile.college}
+ Batch      : ${profile.batch}
 
-💬 Greeting   : ${getGreeting(name)}
+ Total Marks (87 + 91): ${marks1} + ${marks2} = ${total}
+
+ Greeting   : ${getGreeting(name)}
 
 ✅ All data has been dynamically inserted using JavaScript Interpolation!
 `;
