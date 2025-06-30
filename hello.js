@@ -4,5 +4,5 @@ function greetUser(callback) {
 }
 
 greetUser((name) => {
-  console.log("Hello, " + name + "!");
+  console.log("Hii, " + name + "!");
 });
